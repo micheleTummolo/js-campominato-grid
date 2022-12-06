@@ -26,10 +26,23 @@ body {
 }
 
 .square {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     cursor: pointer;
+}
+
+.square_easy {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.square_medium {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.square_hard {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 .clicked {
